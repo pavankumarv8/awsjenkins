@@ -9,14 +9,14 @@
   },
    {
     "ParameterKey": "KeyName",
-    "ParameterValue": "jenkins"
+    "ParameterValue": "AWS"
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-827f06da"
+    "ParameterValue": "subnet-2879e84c"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
-    "ParameterValue": "sg-4c53a42a"
+    "ParameterValue": "sg-2da4704b"
   }
 ]
