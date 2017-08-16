@@ -76,7 +76,7 @@
 							"sudo chmod 400 pavankumarv8.pem\n",
 							"sudo chef-client -o recipe[test::docs_example]\n",
 							"cd /opt/tomcat_docs/webapps\n",
-							"sudo wget http://ec2-54-193-82-118.us-west-1.compute.amazonaws.com:8080/nexus-2.14.5-02/content/repositories/releases/org/sonatype/mavenbook/simpleweb/simple-webapp/1.0/simple-webapp-1.0.war\n",			"sudo cd opt/tomcat_docs/bin\n",
+							"sudo wget http://ec2-54-153-82-41.us-west-1.compute.amazonaws.com:8080/nexus-2.14.5-02/content/repositories/releases/org/sonatype/mavenbook/simpleweb/simple-webapp/1.0/simple-webapp-1.0.war\n",			"sudo cd opt/tomcat_docs/bin\n",
 							"./shutdown.sh\n",
 							"./startup.sh\n",
 							"/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
